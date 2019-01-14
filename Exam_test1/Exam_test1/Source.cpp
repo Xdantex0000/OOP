@@ -14,14 +14,12 @@ void operator == (Investor in1, Investor in2) {
 
 int main() {
 	// Example
-	double doub;
 	System *sys = new System();
 	Investor *in = new Investor();
 	sys->manager->investor->Name_set("Vasya");
 	cout << sys->manager->investor->Name_get() << endl;
 	in = sys->manager->investor;
 	cout << in->Name_get() << endl;
-	sys->manager->investor->Total_money_set(doub);
 
 	cout << "Programm works correctly"<<endl;
 	system("pause");
